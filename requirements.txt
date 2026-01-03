@@ -1,0 +1,17 @@
+# Théorie des graphes
+networkx>=3.1
+
+# Visualisation
+matplotlib>=3.7
+
+# Google Generative AI (Gemini)
+google-generativeai>=0.8.5
+
+# Gestion des variables d'environnement (optionnel si tu utilises .env)
+python-dotenv>=1.0.0
+
+# Utilitaire pour requêtes HTTP si nécessaire
+requests>=2.32.0
+
+# Pour le typage et compatibilité
+typing-extensions>=4.5
