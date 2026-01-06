@@ -1,23 +1,22 @@
-# Mini-Graffiti
+# 🎨 Mini-Graffiti
 
 Projet réalisé en L2 Informatique et Gestion.
 
-Ce projet est une version simplifiée du logiciel Graffiti.
-Il permet de générer automatiquement des conjectures en théorie des graphes,
-de les tester sur un ensemble de graphes (zoo de graphes),
-et de détecter des contre-exemples lorsque les conjectures sont fausses.
 Ce projet est une version simplifiée et pédagogique du logiciel **Graffiti**, utilisé en théorie des graphes pour générer automatiquement des conjectures mathématiques.  
 Le programme génère des conjectures entre invariants de graphes, les teste sur un ensemble de graphes (zoo de graphes) et détecte automatiquement des contre-exemples lorsque les conjectures sont fausses.
 
-L’objectif principal du projet est de comprendre une démarche expérimentale :
-- formuler des hypothèses,
-- les tester automatiquement,
-- analyser les résultats,
-- et mettre en évidence les limites des conjectures générées par une intelligence artificielle.
-
 ---
 
-## Fonctionnalités principales
+## 🎯 Objectifs du projet
+
+L’objectif principal du projet est de comprendre une démarche expérimentale :
+* formuler des hypothèses,
+* les tester automatiquement,
+* analyser les résultats,
+* et mettre en évidence les limites des conjectures générées par une intelligence artificielle.
+
+
+## ✨ Fonctionnalités
 
 - Construction automatique d’un **zoo de graphes** (chemins, cycles, arbres, graphes complets, bipartis, graphes aléatoires)
 - Calcul de plusieurs **invariants de graphes**
@@ -26,7 +25,6 @@ L’objectif principal du projet est de comprendre une démarche expérimentale 
 - Détection automatique de **contre-exemples**
 - Visualisation et sauvegarde des graphes contre-exemples
 - Stockage des résultats dans une base de données **SQLite**
-
 
 ---
 
@@ -44,10 +42,10 @@ Bibliothèques Python utilisées :
 
 ---
 
-## Installation
+## 🚀 Installation
 
 ### 1️⃣ Cloner le dépôt GitHub
-bash git clone https://github.com/TON_NOM_UTILISATEUR/Mini-Graffiti.git cd Mini-Graffiti
+bash git clone https://github.com/Omaima05/mini-graffiti.git cd Mini-Graffiti
 `
 
 ---
@@ -89,7 +87,22 @@ Le programme :
 ---
 
 ## Organisation du projet
-Mini-Graffiti/ │ ├── main.py # Lancement principal du programme ├── zoo.py # Construction du zoo de graphes ├── invariants.py # Calcul des invariants de graphes ├── llm.py # Interaction avec l’IA (Ollama / Mistral) ├── tester.py # Test des conjectures ├── visualizer.py # Visualisation des graphes ├── database.py # Gestion de la base SQLite │ ├── rapport/ │ ├── images/ # Images des graphes contre-exemples │ └── rapport.tex # Fichiers LaTeX du rapport │ ├── README.md └── requirements.txt
+
+Mini-Graffiti/
+├── main.py          # Lancement principal du programme
+├── zoo.py           # Construction du zoo de graphes
+├── invariants.py    # Calcul des invariants de graphes
+├── llm.py           # Interaction avec l’IA (Ollama / Mistral)
+├── tester.py        # Test des conjectures
+├── visualizer.py    # Visualisation des graphes
+├── database.py      # Gestion de la base SQLite
+│
+├── rapport/
+│   ├── images/      # Images des graphes contre-exemples
+│   └── rapport.tex  # Fichiers LaTeX du rapport
+│
+├── README.md
+└── requirements.txt
 ---
 
 ## Remarque importante
@@ -102,5 +115,5 @@ Un seul contre-exemple suffit à réfuter une conjecture, mais l’absence de co
 
 ## Auteurs
 
-Projet réalisé dans le cadre du cours de **L2 Informatique et Gestion**.
+Mahjoub Omaïma et Cherfaoui Abdelkader
 ---
