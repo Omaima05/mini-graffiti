@@ -104,6 +104,7 @@ Mini-Graffiti/
 │
 ├── README.md
 └── requirements.txt
+```
 ---
 
 ## Remarque importante
