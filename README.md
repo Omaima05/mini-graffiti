@@ -75,8 +75,8 @@ Ollama doit être lancé avant l’exécution du programme.
 
 Lancer le fichier principal :
 bash python main.py
-Le programme :
 
+Le programme :
 * génère un zoo de graphes,
 * demande à l’IA de proposer des conjectures,
 * teste ces conjectures automatiquement,
