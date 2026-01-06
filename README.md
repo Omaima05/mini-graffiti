@@ -88,6 +88,7 @@ Le programme :
 
 ## Organisation du projet
 
+```text
 Mini-Graffiti/
 ├── main.py          # Lancement principal du programme
 ├── zoo.py           # Construction du zoo de graphes
